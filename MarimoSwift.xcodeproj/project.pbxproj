@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC38FE68193E1BFB005799B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38FE67193E1BFB005799B8 /* AppDelegate.swift */; };
+		DC38FE6A193E1BFB005799B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38FE69193E1BFB005799B8 /* ViewController.swift */; };
+		DC38FE6D193E1BFB005799B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC38FE6B193E1BFB005799B8 /* Main.storyboard */; };
+		DC38FE6F193E1BFB005799B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC38FE6E193E1BFB005799B8 /* Images.xcassets */; };
+		DC38FE7B193E1BFB005799B8 /* MarimoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38FE7A193E1BFB005799B8 /* MarimoSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC38FE75193E1BFB005799B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC38FE5A193E1BFB005799B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC38FE61193E1BFB005799B8;
+			remoteInfo = MarimoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC38FE62193E1BFB005799B8 /* MarimoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarimoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC38FE66193E1BFB005799B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC38FE67193E1BFB005799B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC38FE69193E1BFB005799B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC38FE6C193E1BFB005799B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC38FE6E193E1BFB005799B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC38FE74193E1BFB005799B8 /* MarimoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarimoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC38FE79193E1BFB005799B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC38FE7A193E1BFB005799B8 /* MarimoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarimoSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC38FE5F193E1BFB005799B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC38FE71193E1BFB005799B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC38FE59193E1BFB005799B8 = {
+			isa = PBXGroup;
+			children = (
+				DC38FE64193E1BFB005799B8 /* MarimoSwift */,
+				DC38FE77193E1BFB005799B8 /* MarimoSwiftTests */,
+				DC38FE63193E1BFB005799B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC38FE63193E1BFB005799B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC38FE62193E1BFB005799B8 /* MarimoSwift.app */,
+				DC38FE74193E1BFB005799B8 /* MarimoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC38FE64193E1BFB005799B8 /* MarimoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DC38FE67193E1BFB005799B8 /* AppDelegate.swift */,
+				DC38FE69193E1BFB005799B8 /* ViewController.swift */,
+				DC38FE6B193E1BFB005799B8 /* Main.storyboard */,
+				DC38FE6E193E1BFB005799B8 /* Images.xcassets */,
+				DC38FE65193E1BFB005799B8 /* Supporting Files */,
+			);
+			path = MarimoSwift;
+			sourceTree = "<group>";
+		};
+		DC38FE65193E1BFB005799B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC38FE66193E1BFB005799B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC38FE77193E1BFB005799B8 /* MarimoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC38FE7A193E1BFB005799B8 /* MarimoSwiftTests.swift */,
+				DC38FE78193E1BFB005799B8 /* Supporting Files */,
+			);
+			path = MarimoSwiftTests;
+			sourceTree = "<group>";
+		};
+		DC38FE78193E1BFB005799B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC38FE79193E1BFB005799B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC38FE61193E1BFB005799B8 /* MarimoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC38FE7E193E1BFB005799B8 /* Build configuration list for PBXNativeTarget "MarimoSwift" */;
+			buildPhases = (
+				DC38FE5E193E1BFB005799B8 /* Sources */,
+				DC38FE5F193E1BFB005799B8 /* Frameworks */,
+				DC38FE60193E1BFB005799B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarimoSwift;
+			productName = MarimoSwift;
+			productReference = DC38FE62193E1BFB005799B8 /* MarimoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC38FE73193E1BFB005799B8 /* MarimoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC38FE81193E1BFB005799B8 /* Build configuration list for PBXNativeTarget "MarimoSwiftTests" */;
+			buildPhases = (
+				DC38FE70193E1BFB005799B8 /* Sources */,
+				DC38FE71193E1BFB005799B8 /* Frameworks */,
+				DC38FE72193E1BFB005799B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC38FE76193E1BFB005799B8 /* PBXTargetDependency */,
+			);
+			name = MarimoSwiftTests;
+			productName = MarimoSwiftTests;
+			productReference = DC38FE74193E1BFB005799B8 /* MarimoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC38FE5A193E1BFB005799B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kosuke Ogawa";
+				TargetAttributes = {
+					DC38FE61193E1BFB005799B8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DC38FE73193E1BFB005799B8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DC38FE61193E1BFB005799B8;
+					};
+				};
+			};
+			buildConfigurationList = DC38FE5D193E1BFB005799B8 /* Build configuration list for PBXProject "MarimoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC38FE59193E1BFB005799B8;
+			productRefGroup = DC38FE63193E1BFB005799B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC38FE61193E1BFB005799B8 /* MarimoSwift */,
+				DC38FE73193E1BFB005799B8 /* MarimoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC38FE60193E1BFB005799B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC38FE6D193E1BFB005799B8 /* Main.storyboard in Resources */,
+				DC38FE6F193E1BFB005799B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC38FE72193E1BFB005799B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC38FE5E193E1BFB005799B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC38FE6A193E1BFB005799B8 /* ViewController.swift in Sources */,
+				DC38FE68193E1BFB005799B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC38FE70193E1BFB005799B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC38FE7B193E1BFB005799B8 /* MarimoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC38FE76193E1BFB005799B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC38FE61193E1BFB005799B8 /* MarimoSwift */;
+			targetProxy = DC38FE75193E1BFB005799B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC38FE6B193E1BFB005799B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC38FE6C193E1BFB005799B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC38FE7C193E1BFB005799B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC38FE7D193E1BFB005799B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC38FE7F193E1BFB005799B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MarimoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC38FE80193E1BFB005799B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MarimoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC38FE82193E1BFB005799B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarimoSwift.app/MarimoSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarimoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DC38FE83193E1BFB005799B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarimoSwift.app/MarimoSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarimoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC38FE5D193E1BFB005799B8 /* Build configuration list for PBXProject "MarimoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC38FE7C193E1BFB005799B8 /* Debug */,
+				DC38FE7D193E1BFB005799B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC38FE7E193E1BFB005799B8 /* Build configuration list for PBXNativeTarget "MarimoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC38FE7F193E1BFB005799B8 /* Debug */,
+				DC38FE80193E1BFB005799B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC38FE81193E1BFB005799B8 /* Build configuration list for PBXNativeTarget "MarimoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC38FE82193E1BFB005799B8 /* Debug */,
+				DC38FE83193E1BFB005799B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC38FE5A193E1BFB005799B8 /* Project object */;
+}
